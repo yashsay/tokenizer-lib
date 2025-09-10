@@ -15,7 +15,7 @@ const config = {
     "options": {}
   },
   "staticDirs": [
-    "..\\public"
+    "../public"
   ],
   "docs": {
     "autodocs": "tag"
