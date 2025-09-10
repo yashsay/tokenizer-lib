@@ -1,3 +1,7 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="README" />
+
 ## Design tokens with Style Dictionary
 
 This repository builds multi-theme design tokens using [Style Dictionary](https://amzn.github.io/style-dictionary) and exposes them as CSS custom properties and ES modules. Tokens live in `src/tokens/` and compile into `dist/tokens/`.
@@ -71,8 +75,8 @@ button.primary {
 Consume JS tokens when needed (e.g., in JS styling or docs):
 
 ```js
-import primitives from './dist/tokens/primitives.js';
-import light from './dist/tokens/semantic-light.js';
+import primitives from '../dist/tokens/primitives.js';
+import light from '../dist/tokens/semantic-light.js';
 
 console.log(primitives.primitives.color.blue[500]);
 console.log(light.semantics.theme_light.color.text.primary);
