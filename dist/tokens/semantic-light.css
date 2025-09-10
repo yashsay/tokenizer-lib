@@ -1,0 +1,26 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-light {
+  --semantics-theme-light-font-family-title: Nunito, Arial, sans-serif;
+  --semantics-theme-light-font-family-body: Nunito, Arial, sans-serif;
+  --semantics-theme-light-font-size-display-large: var(--primitives-font-size-48);
+  --semantics-theme-light-font-size-headline-medium: var(--primitives-font-size-24);
+  --semantics-theme-light-font-size-body-small: var(--primitives-font-size-14);
+  --semantics-theme-light-font-size-body-medium: var(--primitives-font-size-16);
+  --semantics-theme-light-line-height-display-large: var(--primitives-line-height-tight);
+  --semantics-theme-light-line-height-body-medium: var(--primitives-line-height-normal);
+  --semantics-theme-light-color-text-primary: var(--primitives-color-gray-900);
+  --semantics-theme-light-color-text-secondary: var(--primitives-color-gray-500);
+  --semantics-theme-light-color-background: var(--primitives-color-white);
+  --semantics-theme-light-color-accent: var(--primitives-color-blue-500);
+  --semantics-theme-light-color-danger: var(--primitives-color-red-500);
+  --semantics-theme-light-spacing-container-padding: var(--primitives-spacing-16);
+  --semantics-theme-light-spacing-element-gap: var(--primitives-spacing-8);
+  --semantics-theme-light-radius-button: var(--primitives-radius-sm);
+  --semantics-theme-light-radius-card: var(--primitives-radius-md);
+  --semantics-theme-light-radius-modal: var(--primitives-radius-lg);
+  --semantics-theme-light-elevation-card: var(--primitives-elevation-sm);
+  --semantics-theme-light-elevation-modal: var(--primitives-elevation-md);
+}

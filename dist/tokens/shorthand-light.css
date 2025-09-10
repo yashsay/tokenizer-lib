@@ -1,0 +1,8 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-light {
+  --shorthand-theme-light-text-body: var(--primitives-font-weight-regular) var(--semantics-theme-light-font-size-body-medium)/var(--semantics-theme-light-line-height-body-medium) var(--semantics-theme-light-font-family-body);
+  --shorthand-theme-light-button-padding: var(--primitives-spacing-8) var(--primitives-spacing-16);
+}

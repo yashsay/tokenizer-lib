@@ -1,0 +1,49 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const PrimitivesColorBlack = "#000000";
+export const PrimitivesColorWhite = "#ffffff";
+export const PrimitivesColorGray50 = "#f9fafb";
+export const PrimitivesColorGray100 = "#f3f4f6";
+export const PrimitivesColorGray500 = "#6b7280";
+export const PrimitivesColorGray900 = "#111827";
+export const PrimitivesColorBlue500 = "#3b82f6";
+export const PrimitivesColorBlue700 = "#1d4ed8";
+export const PrimitivesColorRed500 = "#ef4444";
+export const PrimitivesColorGreen500 = "#10b981";
+export const PrimitivesFontSize12 = "12px";
+export const PrimitivesFontSize14 = "14px";
+export const PrimitivesFontSize16 = "16px";
+export const PrimitivesFontSize20 = "20px";
+export const PrimitivesFontSize24 = "24px";
+export const PrimitivesFontSize32 = "32px";
+export const PrimitivesFontSize48 = "48px";
+export const PrimitivesLineHeightTight = "120%";
+export const PrimitivesLineHeightNormal = "140%";
+export const PrimitivesLineHeightRelaxed = "160%";
+export const PrimitivesLetterSpacingTight = "-0.5px";
+export const PrimitivesLetterSpacingNormal = "0px";
+export const PrimitivesLetterSpacingWide = "0.5px";
+export const PrimitivesFontWeightRegular = 400;
+export const PrimitivesFontWeightMedium = 500;
+export const PrimitivesFontWeightSemibold = 600;
+export const PrimitivesFontWeightBold = 700;
+export const PrimitivesSpacing4 = "4px";
+export const PrimitivesSpacing8 = "8px";
+export const PrimitivesSpacing12 = "12px";
+export const PrimitivesSpacing16 = "16px";
+export const PrimitivesSpacing24 = "24px";
+export const PrimitivesSpacing32 = "32px";
+export const PrimitivesSpacing40 = "40px";
+export const PrimitivesRadiusSm = "4px";
+export const PrimitivesRadiusMd = "8px";
+export const PrimitivesRadiusLg = "16px";
+export const PrimitivesRadiusXl = "24px";
+export const PrimitivesElevationSm = "0 1px 2px rgba(0,0,0,0.1)";
+export const PrimitivesElevationMd = "0 4px 6px rgba(0,0,0,0.1)";
+export const PrimitivesElevationLg = "0 10px 15px rgba(0,0,0,0.15)";
+export const PrimitivesContainerSm = "640px";
+export const PrimitivesContainerMd = "768px";
+export const PrimitivesContainerLg = "1024px";
+export const PrimitivesContainerXl = "1280px";

@@ -1,0 +1,82 @@
+{
+  "semantics": {
+    "theme_light": {
+      "font-family": {
+        "title": { "value": "Nunito, Arial, sans-serif", "type": "fontFamily" },
+        "body": { "value": "Nunito, Arial, sans-serif", "type": "fontFamily" }
+      },
+      "font-size": {
+        "display-large": { "value": "{primitives.font-size.48}", "type": "fontSize" },
+        "headline-medium": { "value": "{primitives.font-size.24}", "type": "fontSize" },
+        "body-small": { "value": "{primitives.font-size.14}", "type": "fontSize" },
+        "body-medium": { "value": "{primitives.font-size.16}", "type": "fontSize" }
+      },
+      "line-height": {
+        "display-large": {
+          "value": "{primitives.line-height.tight}",
+          "type": "lineHeight"
+        },
+        "body-medium": { "value": "{primitives.line-height.normal}", "type": "lineHeight" }
+      },
+      "color": {
+        "text-primary": { "value": "{primitives.color.gray-900}", "type": "color" },
+        "text-secondary": { "value": "{primitives.color.gray-500}", "type": "color" },
+        "background": { "value": "{primitives.color.white}", "type": "color" },
+        "accent": { "value": "{primitives.color.blue-500}", "type": "color" },
+        "danger": { "value": "{primitives.color.red-500}", "type": "color" }
+      },
+      "spacing": {
+        "container-padding": { "value": "{primitives.spacing.16}", "type": "spacing" },
+        "element-gap": { "value": "{primitives.spacing.8}", "type": "spacing" }
+      },
+      "radius": {
+        "button": { "value": "{primitives.radius.sm}", "type": "borderRadius" },
+        "card": { "value": "{primitives.radius.md}", "type": "borderRadius" },
+        "modal": { "value": "{primitives.radius.lg}", "type": "borderRadius" }
+      },
+      "elevation": {
+        "card": { "value": "{primitives.elevation.sm}", "type": "boxShadow" },
+        "modal": { "value": "{primitives.elevation.md}", "type": "boxShadow" }
+      }
+    },
+    "theme_dark": {
+      "font-family": {
+        "title": { "value": "Nunito, Arial, sans-serif", "type": "fontFamily" },
+        "body": { "value": "Nunito, Arial, sans-serif", "type": "fontFamily" }
+      },
+      "font-size": {
+        "display-large": { "value": "{primitives.font-size.48}", "type": "fontSize" },
+        "headline-medium": { "value": "{primitives.font-size.24}", "type": "fontSize" },
+        "body-small": { "value": "{primitives.font-size.14}", "type": "fontSize" },
+        "body-medium": { "value": "{primitives.font-size.16}", "type": "fontSize" }
+      },
+      "line-height": {
+        "display-large": {
+          "value": "{primitives.line-height.tight}",
+          "type": "lineHeight"
+        },
+        "body-medium": { "value": "{primitives.line-height.normal}", "type": "lineHeight" }
+      },
+      "color": {
+        "text-primary": { "value": "{primitives.color.gray-50}", "type": "color" },
+        "text-secondary": { "value": "{primitives.color.gray-100}", "type": "color" },
+        "background": { "value": "{primitives.color.gray-900}", "type": "color" },
+        "accent": { "value": "{primitives.color.blue-500}", "type": "color" },
+        "danger": { "value": "{primitives.color.red-500}", "type": "color" }
+      },
+      "spacing": {
+        "container-padding": { "value": "{primitives.spacing.16}", "type": "spacing" },
+        "element-gap": { "value": "{primitives.spacing.8}", "type": "spacing" }
+      },
+      "radius": {
+        "button": { "value": "{primitives.radius.sm}", "type": "borderRadius" },
+        "card": { "value": "{primitives.radius.md}", "type": "borderRadius" },
+        "modal": { "value": "{primitives.radius.lg}", "type": "borderRadius" }
+      },
+      "elevation": {
+        "card": { "value": "{primitives.elevation.sm}", "type": "boxShadow" },
+        "modal": { "value": "{primitives.elevation.md}", "type": "boxShadow" }
+      }
+    }
+  }
+}

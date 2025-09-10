@@ -1,3 +1,16 @@
+## Design Tokens build
+
+This project uses Style Dictionary to build tokens from `src/tokens/primitive.json` and `src/tokens/semantic.json`.
+
+Commands:
+
+```
+npm run tokens:clean
+npm run tokens:build
+```
+
+Outputs are written to `dist/tokens/` as CSS variables and JS modules.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

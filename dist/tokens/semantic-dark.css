@@ -1,0 +1,26 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-dark {
+  --semantics-theme-dark-font-family-title: Nunito, Arial, sans-serif;
+  --semantics-theme-dark-font-family-body: Nunito, Arial, sans-serif;
+  --semantics-theme-dark-font-size-display-large: var(--primitives-font-size-48);
+  --semantics-theme-dark-font-size-headline-medium: var(--primitives-font-size-24);
+  --semantics-theme-dark-font-size-body-small: var(--primitives-font-size-14);
+  --semantics-theme-dark-font-size-body-medium: var(--primitives-font-size-16);
+  --semantics-theme-dark-line-height-display-large: var(--primitives-line-height-tight);
+  --semantics-theme-dark-line-height-body-medium: var(--primitives-line-height-normal);
+  --semantics-theme-dark-color-text-primary: var(--primitives-color-gray-50);
+  --semantics-theme-dark-color-text-secondary: var(--primitives-color-gray-100);
+  --semantics-theme-dark-color-background: var(--primitives-color-gray-900);
+  --semantics-theme-dark-color-accent: var(--primitives-color-blue-500);
+  --semantics-theme-dark-color-danger: var(--primitives-color-red-500);
+  --semantics-theme-dark-spacing-container-padding: var(--primitives-spacing-16);
+  --semantics-theme-dark-spacing-element-gap: var(--primitives-spacing-8);
+  --semantics-theme-dark-radius-button: var(--primitives-radius-sm);
+  --semantics-theme-dark-radius-card: var(--primitives-radius-md);
+  --semantics-theme-dark-radius-modal: var(--primitives-radius-lg);
+  --semantics-theme-dark-elevation-card: var(--primitives-elevation-sm);
+  --semantics-theme-dark-elevation-modal: var(--primitives-elevation-md);
+}

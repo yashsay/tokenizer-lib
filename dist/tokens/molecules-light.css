@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-light {
+  --molecules-theme-light-button-primary-padding-x: var(--primitives-spacing-16);
+  --molecules-theme-light-button-primary-padding-y: var(--primitives-spacing-8);
+  --molecules-theme-light-button-secondary-padding-x: var(--primitives-spacing-16);
+  --molecules-theme-light-button-secondary-padding-y: var(--primitives-spacing-8);
+  --molecules-theme-light-button-secondary-border: 1px solid var(--primitives-color-gray-900);
+  --molecules-theme-light-card-padding: var(--primitives-spacing-16);
+  --molecules-theme-light-text-body-font-family: var(--semantics-theme-light-font-family-body);
+  --molecules-theme-light-text-body-font-weight: var(--primitives-font-weight-regular);
+  --molecules-theme-light-button-primary-background: var(--semantics-theme-light-color-accent);
+  --molecules-theme-light-button-primary-text: var(--semantics-theme-light-color-background);
+  --molecules-theme-light-button-primary-radius: var(--semantics-theme-light-radius-button);
+  --molecules-theme-light-button-secondary-background: var(--semantics-theme-light-color-background);
+  --molecules-theme-light-button-secondary-text: var(--semantics-theme-light-color-text-primary);
+  --molecules-theme-light-button-secondary-radius: var(--semantics-theme-light-radius-button);
+  --molecules-theme-light-card-background: var(--semantics-theme-light-color-background);
+  --molecules-theme-light-card-radius: var(--semantics-theme-light-radius-card);
+  --molecules-theme-light-card-shadow: var(--semantics-theme-light-elevation-card);
+  --molecules-theme-light-text-body-font-size: var(--semantics-theme-light-font-size-body-medium);
+  --molecules-theme-light-text-body-line-height: var(--semantics-theme-light-line-height-body-medium);
+}

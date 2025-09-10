@@ -1,0 +1,8 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-dark {
+  --shorthand-theme-dark-text-body: var(--primitives-font-weight-regular) var(--semantics-theme-dark-font-size-body-medium)/var(--semantics-theme-dark-line-height-body-medium) var(--semantics-theme-dark-font-family-body);
+  --shorthand-theme-dark-button-padding: var(--primitives-spacing-8) var(--primitives-spacing-16);
+}

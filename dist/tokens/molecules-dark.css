@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.theme-dark {
+  --molecules-theme-dark-button-primary-padding-x: var(--primitives-spacing-16);
+  --molecules-theme-dark-button-primary-padding-y: var(--primitives-spacing-8);
+  --molecules-theme-dark-button-secondary-padding-x: var(--primitives-spacing-16);
+  --molecules-theme-dark-button-secondary-padding-y: var(--primitives-spacing-8);
+  --molecules-theme-dark-button-secondary-border: 1px solid var(--primitives-color-gray-50);
+  --molecules-theme-dark-card-padding: var(--primitives-spacing-16);
+  --molecules-theme-dark-text-body-font-family: var(--semantics-theme-dark-font-family-body);
+  --molecules-theme-dark-text-body-font-weight: var(--primitives-font-weight-regular);
+  --molecules-theme-dark-button-primary-background: var(--semantics-theme-dark-color-accent);
+  --molecules-theme-dark-button-primary-text: var(--semantics-theme-dark-color-background);
+  --molecules-theme-dark-button-primary-radius: var(--semantics-theme-dark-radius-button);
+  --molecules-theme-dark-button-secondary-background: var(--semantics-theme-dark-color-background);
+  --molecules-theme-dark-button-secondary-text: var(--semantics-theme-dark-color-text-primary);
+  --molecules-theme-dark-button-secondary-radius: var(--semantics-theme-dark-radius-button);
+  --molecules-theme-dark-card-background: var(--semantics-theme-dark-color-background);
+  --molecules-theme-dark-card-radius: var(--semantics-theme-dark-radius-card);
+  --molecules-theme-dark-card-shadow: var(--semantics-theme-dark-elevation-card);
+  --molecules-theme-dark-text-body-font-size: var(--semantics-theme-dark-font-size-body-medium);
+  --molecules-theme-dark-text-body-line-height: var(--semantics-theme-dark-line-height-body-medium);
+}
