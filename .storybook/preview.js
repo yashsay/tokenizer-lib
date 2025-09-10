@@ -1,3 +1,4 @@
+import React from 'react';
 import '../dist/tokens/primitives.css';
 import '../dist/tokens/semantic-light.css';
 import '../dist/tokens/semantic-dark.css';
@@ -28,13 +29,22 @@ export const globalTypes = {
 
 const applyThemeClass = (theme) => {
   const root = document.documentElement;
-  root.classList.remove('theme-light', 'theme-dark');
-  root.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+  const body = document.body;
+  [root, body].forEach((el) => {
+    if (!el) return;
+    el.classList.remove('theme-light', 'theme-dark');
+    el.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+  });
 };
 
 export const decorators = [
   (Story, context) => {
-    applyThemeClass(context.globals.theme);
-    return Story();
+    const { theme } = context.globals;
+    React.useEffect(() => {
+      applyThemeClass(theme);
+    }, [theme]);
+    // apply once on initial render, in case effect timing differs
+    applyThemeClass(theme);
+    return <Story />;
   }
 ];

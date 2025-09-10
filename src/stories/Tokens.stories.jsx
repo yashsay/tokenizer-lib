@@ -28,7 +28,7 @@ const Swatch = ({ label, value }) => (
   </div>
 );
 
-export const AllTokens = () => {
+export const AllTokens = ({ theme = 'light' }) => {
   const lightColors = [
     ['Text Primary', Light.SemanticsThemeLightColorTextPrimary],
     ['Text Secondary', Light.SemanticsThemeLightColorTextSecondary],
@@ -55,8 +55,10 @@ export const AllTokens = () => {
     Primitives.PrimitivesSpacing40
   ];
 
+  const themeClass = theme === 'dark' ? 'theme-dark' : 'theme-light';
+
   return (
-    <div style={{ display: 'grid', gap: 32, fontFamily: 'Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif' }}>
+    <div className={themeClass} style={{ display: 'grid', gap: 32, fontFamily: 'Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif' }}>
       <Section title="Semantic Colors - Light">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 180px)', gap: 16 }}>
           {lightColors.map(([label, value]) => (
@@ -77,7 +79,7 @@ export const AllTokens = () => {
         <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16 }}>
           {spacings.map((val) => (
             <div key={val} style={{ width: 64 }}>
-              <div style={{ height: 8, width: 64, background: 'var(--accent, #3b82f6)', marginBottom: 8 }} />
+              <div style={{ height: 8, width: 64, background: 'var(--semantics-theme-light-color-accent, #3b82f6)', marginBottom: 8 }} />
               <code>{String(val)}</code>
             </div>
           ))}
@@ -130,11 +132,22 @@ export const AllTokens = () => {
 
       <Section title="Usage - CSS and JS">
         <ul>
-          <li>CSS variables: import token CSS, then use <code>var(--...)</code>. Themes via <code>.theme-light</code>/<code>.theme-dark</code>.</li>
+          <li>Toggle theme via toolbar or story control to apply <code>.theme-light</code>/<code>.theme-dark</code> classes.</li>
+          <li>CSS variables: import token CSS and use <code>var(--...)</code>. Theme-scoped variables come from the nearest theme class.</li>
           <li>JS tokens: import from <code>dist/tokens/*.js</code> and use constants.</li>
-          <li>Shorthand tokens: use <code>font: ShorthandThemeLightTextBody</code> etc. for consistent typography.</li>
         </ul>
       </Section>
     </div>
   );
+};
+
+AllTokens.argTypes = {
+  theme: {
+    control: { type: 'inline-radio' },
+    options: ['light', 'dark']
+  }
+};
+
+AllTokens.parameters = {
+  controls: { expanded: true }
 };
